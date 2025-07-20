@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Social Media Automation | 24/7 Growth Solutions</title>
+    <meta name="description" content="Custom AI automations for X, Instagram & YouTube that save 40+ hours monthly and double engagement. Book your free demo today.">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="AI Social Media Automation | 24/7 Growth Solutions">
+    <meta property="og:description" content="Custom AI automations for X, Instagram & YouTube that save 40+ hours monthly and double engagement.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yoursite.com">
+    <meta property="og:image" content="/assets/og-image.svg">
+    
+    <!-- Fonts & External Libraries -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Critical CSS (inlined for performance) -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: radial-gradient(ellipse at center, #1e2a4a 0%, #1b1f3b 50%, #0f1221 100%);
+            color: #ffffff;
+            overflow-x: hidden;
+        }
+        
+        .notification-bar {
+            background: linear-gradient(135deg, #00F5A0, #00D9F5);
+            color: #1b1f3b;
+            padding: 12px 0;
+            text-align: center;
+            font-weight: 600;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            font-size: 14px;
+        }
+        
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+            background: url('/assets/hero-bg.svg') center/cover;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(27, 31, 59, 0.8);
+            backdrop-filter: blur(2px);
+        }
+    </style>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sticky Notification Bar -->
+    <div class="notification-bar">
+        🚀 Free 15-Minute Automation Audit — Schedule Before Spots Run Out!
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-robot"></i>
+                <span>AutoFlow AI</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <a href="#process" class="nav-link">Process</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <h1 class="hero-title">
+                    Unlock 24/7 Growth With 
+                    <span class="gradient-text">AI-Driven Social Media Automations</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Custom-built workflows for X, Instagram & YouTube that save you 40+ hours a month and 2× engagement — without adding staff.
+                </p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary">Book Your Free Demo</a>
+                    <button class="btn btn-secondary" id="watch-overview">
+                        <i class="fas fa-play"></i>
+                        Watch 60-Second Overview
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof Strip -->
+    <section class="social-proof" data-aos="fade-up">
+        <div class="container">
+            <p class="social-proof-text">Trusted by growth-focused social-media managers worldwide</p>
+            <div class="social-proof-logos">
+                <div class="logo-item">
+                    <i class="fab fa-google"></i>
+                    <span>TechFlow</span>
+                </div>
+                <div class="logo-item">
+                    <i class="fab fa-microsoft"></i>
+                    <span>CreativeX</span>
+                </div>
+                <div class="logo-item">
+                    <i class="fab fa-amazon"></i>
+                    <span>GrowthCo</span>
+                </div>
+                <div class="logo-item">
+                    <i class="fab fa-apple"></i>
+                    <span>ScaleUp</span>
+                </div>
+                <div class="logo-item">
+                    <i class="fab fa-meta"></i>
+                    <span>ViralGen</span>
+                </div>
+                <div class="logo-item">
+                    <i class="fab fa-netflix"></i>
+                    <span>ContentMax</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pain-Agitate-Solution Section -->
+    <section class="pain-solution" id="problem">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Your Day Shouldn't Be Spent Copy-Pasting Content.</h2>
+            </div>
+            <div class="pain-solution-grid">
+                <div class="pain-card glass-card" data-aos="fade-right">
+                    <h3>The Daily Struggle</h3>
+                    <ul class="pain-list">
+                        <li><i class="fas fa-times-circle"></i> Manual scheduling across platforms</li>
+                        <li><i class="fas fa-times-circle"></i> Inconsistent analytics reporting</li>
+                        <li><i class="fas fa-times-circle"></i> Missing viral trends by hours</li>
+                        <li><i class="fas fa-times-circle"></i> Copy-pasting content formats</li>
+                        <li><i class="fas fa-times-circle"></i> Client demands vs. team capacity</li>
+                    </ul>
+                </div>
+                <div class="solution-card glass-card" data-aos="fade-left">
+                    <h3>The AI Solution</h3>
+                    <div class="benefit-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">40+</div>
+                            <div class="stat-label">hrs saved monthly</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">2×</div>
+                            <div class="stat-label">average engagement</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">10min</div>
+                            <div class="stat-label">real-time trend detection</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Highlights -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Features That Transform Your Workflow</h2>
+                <p>AI-powered automations designed specifically for social media managers</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                    <h3>Smart Trend Hunter</h3>
+                    <p>Scans X/IG/YT every 10 minutes and surfaces viral topics before your competitors even know they exist.</p>
+                </div>
+                <div class="feature-card glass-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>Auto-Content Repurposer</h3>
+                    <p>Turns long-form videos into shorts, threads & reels automatically, maintaining brand voice and style.</p>
+                </div>
+                <div class="feature-card glass-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>One-Click Reporting</h3>
+                    <p>Beautiful client-ready PDFs delivered weekly with actionable insights and growth recommendations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo GIF Row -->
+    <section class="demo-showcase" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title">See It In Action</h2>
+            <div class="demo-grid">
+                <div class="demo-item">
+                    <div class="demo-placeholder">
+                        <img src="/assets/demo1.svg" alt="Dashboard automation in action" loading="lazy">
+                    </div>
+                    <h4>Smart Dashboard</h4>
+                </div>
+                <div class="demo-item">
+                    <div class="demo-placeholder">
+                        <img src="/assets/demo2.svg" alt="Auto-post queue management" loading="lazy">
+                    </div>
+                    <h4>Auto-Post Queue</h4>
+                </div>
+                <div class="demo-item">
+                    <div class="demo-placeholder">
+                        <img src="/assets/demo3.svg" alt="Real-time analytics display" loading="lazy">
+                    </div>
+                    <h4>Live Analytics</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Timeline -->
+    <section class="process" id="process">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Your Path to Automation Success</h2>
+                <p>From discovery to scaling in just 4 simple steps</p>
+            </div>
+            <div class="process-timeline">
+                <div class="process-step" data-aos="fade-right" data-aos-delay="100">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Discovery Call</h3>
+                        <p>We analyze your current workflow and identify automation opportunities.</p>
+                    </div>
+                </div>
+                <div class="process-step" data-aos="fade-left" data-aos-delay="200">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Custom Build</h3>
+                        <p>Our AI specialists create your personalized automation workflows.</p>
+                    </div>
+                </div>
+                <div class="process-step" data-aos="fade-right" data-aos-delay="300">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Launch & Iterate</h3>
+                        <p>Deploy automations and optimize based on performance data.</p>
+                    </div>
+                </div>
+                <div class="process-step" data-aos="fade-left" data-aos-delay="400">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Scale & Support</h3>
+                        <p>Expand capabilities and provide ongoing optimization support.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Choose Your Growth Level</h2>
+                <p>One-time investment, lifetime value</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">550</span>
+                            <span class="period">one-time</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 1 platform automation</li>
+                        <li><i class="fas fa-check"></i> Basic scheduling & posting</li>
+                        <li><i class="fas fa-check"></i> Email support</li>
+                        <li><i class="fas fa-check"></i> Monthly reports</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Secure My Slot</a>
+                </div>
+                <div class="pricing-card glass-card popular" data-aos="fade-up" data-aos-delay="200">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Pro</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">1,200</span>
+                            <span class="period">one-time</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 3 platform automation</li>
+                        <li><i class="fas fa-check"></i> AI trend hunter</li>
+                        <li><i class="fas fa-check"></i> Priority support</li>
+                        <li><i class="fas fa-check"></i> Weekly reports</li>
+                        <li><i class="fas fa-check"></i> Content repurposing</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Secure My Slot</a>
+                </div>
+                <div class="pricing-card glass-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="pricing-header">
+                        <h3>Agency</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">2,250</span>
+                            <span class="period">one-time</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Unlimited accounts</li>
+                        <li><i class="fas fa-check"></i> White-label dashboard</li>
+                        <li><i class="fas fa-check"></i> Dedicated success engineer</li>
+                        <li><i class="fas fa-check"></i> Daily reports</li>
+                        <li><i class="fas fa-check"></i> Custom integrations</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Secure My Slot</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guarantee Banner -->
+    <section class="guarantee" data-aos="fade-up">
+        <div class="container">
+            <div class="guarantee-content glass-card">
+                <div class="guarantee-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <div class="guarantee-text">
+                    <h3>30-Day 200% Money-Back Guarantee</h3>
+                    <p>If our automation doesn't at least double your engagement, we'll refund twice your fee.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Frequently Asked Questions</h2>
+                <p>Everything you need to know about our AI automation service</p>
+            </div>
+            <div class="faq-container" data-aos="fade-up">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How long does setup take?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Complete setup takes 7 business days from discovery call to launch. We handle all technical implementation while you focus on your existing clients.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Is my data secure and private?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely. We use enterprise-grade encryption and never store sensitive client data. All automations run through secure, authenticated APIs with your explicit permission.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What happens when platforms update their algorithms?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our AI continuously adapts to platform changes automatically. We also provide free updates and optimization adjustments for algorithm changes.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can I customize the automation workflows?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, every automation is fully customizable to your brand voice, posting schedule, and client requirements. You maintain complete control over content approval.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you support agencies with multiple clients?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our Agency plan is specifically designed for agencies managing multiple client accounts with white-label reporting and dedicated support.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What kind of support do you provide?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Starter gets email support, Pro gets priority support with faster response times, and Agency gets a dedicated success engineer for hands-on assistance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="final-cta">
+        <div class="container">
+            <div class="cta-content" data-aos="fade-up">
+                <h2>Ready to Automate & Dominate?</h2>
+                <p>Join hundreds of social media managers who've transformed their workflow with AI automation.</p>
+                <a href="#contact" class="btn btn-primary btn-large">Book Your Free Demo Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Get Your Free Automation Audit</h2>
+                <p>Schedule your 15-minute consultation and discover how AI can transform your social media workflow</p>
+            </div>
+            <div class="contact-content">
+                <form class="contact-form glass-card" id="contact-form" action="https://formspree.io/f/your-form-id" method="POST" data-aos="fade-up">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Company/Agency Name</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+                    <div class="form-group">
+                        <label for="platforms">Which platforms do you manage? *</label>
+                        <select id="platforms" name="platforms" required>
+                            <option value="">Select platforms...</option>
+                            <option value="twitter">X (Twitter)</option>
+                            <option value="instagram">Instagram</option>
+                            <option value="youtube">YouTube</option>
+                            <option value="multiple">Multiple platforms</option>
+                            <option value="all">All three platforms</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">What's your biggest social media challenge? *</label>
+                        <textarea id="message" name="message" rows="4" required placeholder="Tell us about your current workflow and main pain points..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span class="btn-text">Schedule My Free Audit</span>
+                        <span class="btn-loading" style="display: none;">
+                            <i class="fas fa-spinner fa-spin"></i> Scheduling...
+                        </span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <i class="fas fa-robot"></i>
+                        <span>AutoFlow AI</span>
+                    </div>
+                    <p>Transforming social media management with AI automation</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#careers">Careers</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#help">Help Center</a></li>
+                            <li><a href="#docs">Documentation</a></li>
+                            <li><a href="#status">Status</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="#privacy">Privacy Policy</a></li>
+                            <li><a href="#terms">Terms of Service</a></li>
+                            <li><a href="#cookies">Cookie Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AutoFlow AI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Video Modal -->
+    <div class="modal-overlay" id="video-modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="video-container">
+                <video controls width="100%" height="auto" id="overview-video" poster="/assets/video-poster.svg">
+                    <source src="/assets/demo-video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+Replit Prompt: Futuristic Social‑Media‑Automation Sales Funnel
+
+You are Replit AI. Generate a complete, production‑ready landing page (HTML, CSS, minimal JS) that sells my personalized AI automations for X (Twitter), Instagram, and YouTube to social‑media managers. The page must look futuristic and modern (think neon‑gradient accents, glassmorphism cards, smooth scroll animations) and function as a high‑converting sales funnel.
+
+Technical Requirements
+
+File structure: create index.html, styles.css, and script.js in the root.
+
+Frameworks/Libraries: Use vanilla HTML5/CSS3/JS only (no React/Vue). Import Google Font "Poppins" and FontAwesome 6 for icons. Use AOS (Animate On Scroll) via CDN for reveal animations.
+
+Responsive: Mobile‑first, flexbox/grid, breakpoints at 768 px & 1200 px.
+
+Accessibility & SEO: semantic HTML (header, main, section, nav, footer), descriptive alt text, meta‑tags for title/description/opengraph.
+
+Contact form: include a simple form that posts to Formspree (placeholder action). Validate required fields with JS.
+
+Performance: inline critical CSS above‑the‑fold, lazy‑load images, compress hero background (placeholder hero-bg.webp).
+
+CTA buttons: smooth‑scroll to contact form.
+
+Visual Style Guide
+
+Primary color: #1b1f3b (near‑black navy)
+
+Accent gradient:  #00F5A0 → #00D9F5 (neon aqua)
+
+Background: deep radial gradient + translucent glass panels (backdrop-filter: blur(12px) saturate(180%))
+
+Buttons: pill‑shape, glowing box‑shadow on hover.
+
+Cards: rounded‑xl (18 px), subtle inner border (rgba 255,255,255,0.1).
+
+Copy & Funnel Structure
+
+1. Sticky Notification Bar (top)
+
+"🚀  Free 15‑Minute Automation Audit — Schedule Before Spots Run Out!"
+
+2. Hero Section
+
+Headline: "Unlock 24/7 Growth With AI‑Driven Social Media Automations"
+
+Sub‑headline: "Custom‑built workflows for X, Instagram & YouTube that save you 40+ hours a month and 2× engagement — without adding staff."
+
+Primary CTA: "Book Your Free Demo"
+
+Secondary CTA: "Watch 60‑Second Overview" (opens modal with embedded overview.mp4).
+
+3. Social Proof Strip
+
+Show tiny avatar logos + names of 6 recognizable brands/agencies (placeholder SVGs) → caption: "Trusted by growth‑focused social‑media managers worldwide".
+
+4. Pain‑Agitate‑Solution Section
+
+Heading: "Your Day Shouldn’t Be Spent Copy‑Pasting Content."
+Copy bullet list of pains (manual scheduling, inconsistent analytics, missed trends). Then Solution card with bold benefit stats:
+
+"40+ hrs saved monthly"
+
+"2× average engagement"
+
+"Real‑time trend detection"
+
+5. Feature Highlights (3‑column cards)
+
+Smart Trend Hunter – scans X/IG/YT every 10 min and surfaces viral topics.
+
+Auto‑Content Repurposer – turns long‑form videos into shorts, threads & reels.
+
+One‑Click Reporting – beautiful client‑ready PDFs delivered weekly.
+
+6. Quick Demo GIF Row
+
+Three 6‑sec looping GIFs showcasing dashboard, auto‑post queue, analytics.
+
+7. Process Timeline (4 steps)
+
+Discovery Call ⇒ 2. Custom Build ⇒ 3. Launch & Iterate ⇒ 4. Scale & Support
+
+8. Pricing Section (glass cards)
+
+Starter $997 one‑time – 1 platform, basic automations, email support.
+
+Pro $1,997 one‑time – 3 platforms, AI trend hunter, priority support.
+
+Agency $4,997 one‑time – unlimited accounts, white‑label dashboard, dedicated success engineer.
+Each card: CTA "Secure My Slot" scrolls to contact form.
+
+9. Guarantee Banner
+
+"30‑Day 200% Money‑Back Guarantee — If our automation doesn’t at least double your engagement, we’ll refund twice your fee." (neon badge icon)
+
+10. FAQ Accordion (6 Qs)
+
+Include answers about setup time (7 days), data privacy, platform updates, etc.
+
+11. Final CTA Section (dark inverse)
+
+Big heading: "Ready to Automate & Dominate?"  CTA button repeats.
+
+12. Footer
+
+Company logo, mini nav, social icons, copyright, privacy/terms links.
+
+JavaScript Functionality
+
+Smooth‑scroll for anchor links.
+
+Toggle mobile nav hamburger.
+
+Modal video overlay (overview.mp4).
+
+Accordion FAQ open/close.
+
+AOS init.
+
+Form validation: highlight empty required fields on submit.
+
+Assets
+
+Create all image/video links as placeholders (/assets/hero-bg.webp, /assets/demo1.gif, etc.).
+
+Deliverable
+
+Return the full contents of all three files (index.html, styles.css, script.js) in your response so I can copy‑paste directly into Replit.
+
+⚠️  Important: Optimize for clarity, persuasion, and conversion. Each section should naturally guide visitors toward booking a demo. Use concise, benefit‑oriented copy and strong verbs. Make headings front‑loaded with value. Keep paragraphs under 60 words. Use emojis sparingly (≤3 total) for emphasis only.
+
+Begin generating the code now.
+

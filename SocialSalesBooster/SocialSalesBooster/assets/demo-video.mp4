@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html><head><title>Demo Video Placeholder</title></head>
+<body style="margin:0;padding:50px;background:#1b1f3b;color:#fff;font-family:system-ui;text-align:center;">
+<h1 style="background:linear-gradient(135deg,#00F5A0,#00D9F5);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">AutoFlow AI Demo Video</h1>
+<p>60-second overview of AI social media automation features</p>
+<div style="margin:20px 0;padding:20px;background:rgba(255,255,255,0.1);border-radius:12px;">
+<h3>🚀 Features Demonstrated:</h3>
+<ul style="text-align:left;max-width:400px;margin:0 auto;">
+<li>Smart trend detection in real-time</li>
+<li>Automated content repurposing</li>
+<li>Multi-platform scheduling</li>
+<li>AI-powered analytics dashboard</li>
+<li>One-click reporting system</li>
+</ul>
+</div>
+<p style="opacity:0.8;">This would be a professionally produced demo video showcasing the platform in action.</p>
+</body></html>
